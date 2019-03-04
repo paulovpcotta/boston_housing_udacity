@@ -12285,7 +12285,7 @@ Desvio padrão dos preços: $165,171.13
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Resposta:</strong> Sim. Pois o valor 0.923 é próximo de 1, o que coloca o valor estimado e variante de 90%.</p>
+<p><strong>Resposta:</strong> Sim. Pois o valor 0.923 é próximo de 1, neste caso a variação está dentro de 90%.</p>
 
 </div>
 </div>
@@ -13201,7 +13201,7 @@ IiIiIiJJ1EEWEREREUny/wFrYRSQb4BDcQAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Resposta: </strong> Gráfico com max_depth=3. A partir do gráfico, pode-se observar que à medida que mais pontos de treinamento são usados, a pontuação do teste começa a diminuir, mas a inclinação da curva começa a se achatar e a convergir para uma pontuação próxima a 0,8. Por outro lado, o resultado do teste parece aumentar acentuadamente para 0,60 quando pelo menos 50 pontos de treinamento são usados para treinar o algoritmo. No entanto, à medida que mais pontos de treinamento são usados, a inclinação da curva de teste também começa a se estabilizar e as pontuações alcançáveis começam a convergir para cerca de 0,8 (o mesmo que a curva de treinamento). Quanto mais pontos de dados aumenta o ponto do modelo para determinar uma saída.</p>
+<p><strong>Resposta: </strong> Gráfico com max_depth=3. A partir do gráfico, pode-se observar que à medida que mais pontos de treinamento são usados, a pontuação do teste começa a se aproximar, situações de alto viés <strong>underfitting</strong>, alta variância <strong>overfitting</strong> e ajuste adequado. E referente á isso é porque o score do conjunto de treinamento é alto, sem prejudicar a convergência do conjunto de teste, o que é o que realmente importa, quando queremos avaliar o desempenho do modelo.</p>
 
 </div>
 </div>
